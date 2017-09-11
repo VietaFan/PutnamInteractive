@@ -36,3 +36,5 @@ entering extended mode
 Output written on myproblemset.pdf (1 page, 70298 bytes).
 Transcript written on myproblemset.log.
 >openpset myproblemset.tex```
+
+![alt text](https://github.com/VietaFan/PutnamInteractive/blob/master/myproblemset.pdf)
