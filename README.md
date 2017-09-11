@@ -7,7 +7,8 @@ The problems are ordered using three different metrics. The first, pctsolved, is
 
 Here are some example inputs and outputs from the program:
 
-```========== Putnam Database ==========
+```
+========== Putnam Database ==========
 Loading data...
 Dataset loaded.
 >makepset myproblemset.tex
