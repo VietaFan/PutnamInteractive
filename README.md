@@ -38,4 +38,4 @@ Transcript written on myproblemset.log.
 >openpset myproblemset.tex
 ```
 
-![alt text](https://github.com/VietaFan/PutnamInteractive/blob/master/myproblemset.pdf)
+<object data="https://github.com/VietaFan/PutnamInteractive/blob/master/myproblemset.pdf" type="application/pdf" width="700px" height="700px"></object>
