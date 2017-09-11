@@ -1,2 +1,6 @@
 # PutnamInteractive
 Allows users to select sets of Putnam problems via the command-line, filtering by year, difficulty, and other characteristics, and creates LaTeX documents consisting of the desired problems.
+
+To run the program, place the Putnam exam source files 1996.tex through 2016.tex from http://kskedlaya.org/putnam-archive/, as well as putnamData.txt, in the same directory as putnamInteractive.py and run with 'python putnamInteractive.py'. After the program starts, type 'help' for a list of possible commands. The command 'writepset' and 'openpset', which write the problemset to a LaTeX file and compile to PDF, and open the PDF file, respectively, require pdflatex to be installed on the system. 
+
+The problems are ordered using three different metrics. The first, pctsolved, is the percentage of the top ~200 contestants scoring at least 8 points on the problem. The second, sloppiness, is the average number of points lost by contestants scoring between 8 and 10. The third, partial, is the average number of points scored by contestants scoring between 0 and 2 on the problem. This data is stored in putnamData.txt, which was compiled from http://kskedlaya.org/putnam-archive/putnam2016stats.html (and similar pages for other years).
